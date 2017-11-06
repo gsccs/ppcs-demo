@@ -37,15 +37,6 @@
         <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
     </listener>
 
-    <!--Rop框架请求捕获-->
-    <servlet>
-        <servlet-name>rop</servlet-name>
-        <servlet-class>
-            com.rop.RopServlet
-        </servlet-class>
-        <load-on-startup>2</load-on-startup>
-    </servlet>
-
     <servlet-mapping>
         <servlet-name>rop</servlet-name>
         <url-pattern>/router</url-pattern>
