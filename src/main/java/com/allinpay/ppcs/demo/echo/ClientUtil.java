@@ -3,6 +3,12 @@ package com.allinpay.ppcs.demo.echo;
 import java.net.InetAddress;
 import java.text.SimpleDateFormat;
 
+
+/**
+ * 测试客户端
+ * @author x.d zhang
+ *
+ */
 public class ClientUtil {
 
 	public static final String SERVER_URL = "http://116.228.64.55:8080/aop/rest";
